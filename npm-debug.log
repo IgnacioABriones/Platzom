@@ -1,0 +1,123 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   '--access=public' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\Users\\Administrador\\Documents\\Curso programacion\\1 - Curso de Fundamentos Javascript\\2. Npm\\platzom',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\Administrador\AppData\Roaming\npm-cache\@Ibriones\platzom\0.1.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\Administrador\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle @Ibriones/platzom@0.1.0~prepublish: @Ibriones/platzom@0.1.0
+11 silly lifecycle @Ibriones/platzom@0.1.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\Administrador\\AppData\\Roaming\\npm-cache\\@Ibriones\\platzom\\0.1.0\\package.tgz',
+12 verbose tar pack   'C:\\Users\\Administrador\\Documents\\Curso programacion\\1 - Curso de Fundamentos Javascript\\2. Npm\\platzom' ]
+13 verbose tarball C:\Users\Administrador\AppData\Roaming\npm-cache\@Ibriones\platzom\0.1.0\package.tgz
+14 verbose folder C:\Users\Administrador\Documents\Curso programacion\1 - Curso de Fundamentos Javascript\2. Npm\platzom
+15 verbose addLocalTarball adding from inside cache C:\Users\Administrador\AppData\Roaming\npm-cache\@Ibriones\platzom\0.1.0\package.tgz
+16 verbose correctMkdir C:\Users\Administrador\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd @Ibriones/platzom@0.1.0
+18 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\@Ibriones\platzom\0.1.0\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\Administrador\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\@Ibriones\platzom\0.1.0\package\package.json written
+21 silly publish { name: '@Ibriones/platzom',
+21 silly publish   version: '0.1.0',
+21 silly publish   description: 'Traductor de idioma Platzom',
+21 silly publish   main: 'dist/src/platzom.js',
+21 silly publish   scripts: { build: 'babel src/platzom.js -d dist', test: 'mocha' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/IgnacioABriones/Platzom.git' },
+21 silly publish   keywords: [ 'platzom', 'platzi', 'fundamentos', 'javascript', 'js' ],
+21 silly publish   author:
+21 silly publish    { name: 'Ignacio Briones',
+21 silly publish      email: 'i.briones.santander@gmail.com',
+21 silly publish      url: 'https://www.linkedin.com/in/ignaciobrioness' },
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/IgnacioABriones/Platzom/issues' },
+21 silly publish   devDependencies:
+21 silly publish    { 'babel-cli': '^6.24.1',
+21 silly publish      'babel-preset-env': '^1.6.0',
+21 silly publish      chai: '^4.0.2',
+21 silly publish      mocha: '^3.4.2' },
+21 silly publish   readme: '# Platzom\r\n\r\nEs un lenguaje inventado para el curso de fundamentos de JavaScript de [Platzi] (https:www.google.com)\r\n\r\n##Descripcion del Idioma\r\n\r\n- Si la palabra termina con "ar", se le quitan esas dos letras\r\n- Si la palabra inicia con Z, se le añade "pe" al final\r\n- Si la palabra traducida tiene 10 o más letras, se debe partir en dos por la mitad y unir con un guión medio\r\n- Por último, si la palabra original es un palíndromo, ninguna regla anterior cuenta y se devuelve la misma palabra pero intercalando letras mayúsculas y minúsculas\r\n\r\n## Instalacion\r\n\r\n```\r\nnpm install platzom\r\n\r\n```\r\n\r\n##Uso\r\n\r\n```\r\n      import platzom for \'platzom\'\r\n\r\n      platzom("programar") //\r\n      platzom("Programar") // Program\r\n      platzom("Zorro") // Zorrope\r\n      platzom("Zarpar") // Zarppe\r\n      platzom("abecedario") // abece-dario\r\n      platzom("sometemos") // SoMeTeMoS\r\n```\r\n\r\n##Creditos\r\n\r\n- [Ignacio Briones] (https://www.linkedin.com/in/ignaciobrioness)\r\n\r\n## Licencia\r\n\r\n[MIT](https://opensource.org/licenses/MIT)\r\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '49034d16df26666080453107f76cf5fe67ede84d',
+21 silly publish   homepage: 'https://github.com/IgnacioABriones/Platzom#readme',
+21 silly publish   _id: '@Ibriones/platzom@0.1.0',
+21 silly publish   _shasum: 'de392dde3963c97b3e4d63d0e047d3d7c7df0f9b',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name @Ibriones/platzom
+24 silly mapToRegistry scope (from package name) @Ibriones
+25 verbose mapToRegistry no registry URL found in name for scope @Ibriones
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry data Result {
+28 silly mapToRegistry   raw: '@Ibriones/platzom',
+28 silly mapToRegistry   scope: '@Ibriones',
+28 silly mapToRegistry   escapedName: '@Ibriones%2fplatzom',
+28 silly mapToRegistry   name: '@Ibriones/platzom',
+28 silly mapToRegistry   rawSpec: '',
+28 silly mapToRegistry   spec: 'latest',
+28 silly mapToRegistry   type: 'tag' }
+29 silly mapToRegistry uri https://registry.npmjs.org/@Ibriones%2fplatzom
+30 verbose publish registryBase https://registry.npmjs.org/
+31 silly publish uploading C:\Users\Administrador\AppData\Roaming\npm-cache\@Ibriones\platzom\0.1.0\package.tgz
+32 verbose request uri https://registry.npmjs.org/@Ibriones%2fplatzom
+33 verbose request sending authorization for write operation
+34 info attempt registry request try #1 at 23:48:05
+35 verbose request using bearer token for auth
+36 verbose request id 30c890f733135e74
+37 http request PUT https://registry.npmjs.org/@Ibriones%2fplatzom
+38 http 404 https://registry.npmjs.org/@Ibriones%2fplatzom
+39 verbose headers { 'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=0',
+39 verbose headers   'content-length': '27',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Wed, 12 Jul 2017 03:48:04 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-lax8644-LAX',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1499831284.152346,VS0,VE169' }
+40 verbose request invalidating C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\_40Ibriones_252fplatzom on PUT
+41 error publish Failed PUT 404
+42 verbose stack Error: Scope not found : @Ibriones/platzom
+42 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+42 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+42 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+42 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+42 verbose stack     at emitTwo (events.js:106:13)
+42 verbose stack     at Request.emit (events.js:191:7)
+42 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+42 verbose stack     at emitOne (events.js:96:13)
+42 verbose stack     at Request.emit (events.js:188:7)
+42 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+43 verbose statusCode 404
+44 verbose pkgid @Ibriones/platzom
+45 verbose cwd C:\Users\Administrador\Documents\Curso programacion\1 - Curso de Fundamentos Javascript\2. Npm\platzom
+46 error Windows_NT 6.1.7601
+47 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--access=public"
+48 error node v6.11.0
+49 error npm  v3.10.10
+50 error code E404
+51 error 404 Scope not found : @Ibriones/platzom
+52 error 404
+53 error 404 '@Ibriones/platzom' is not in the npm registry.
+54 error 404 Your package name is not valid, because
+55 error 404 1. name can no longer contain capital letters
+56 error 404 Note that you can also install from a
+57 error 404 tarball, folder, http url, or git url.
+58 verbose exit [ 1, true ]
